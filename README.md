@@ -1,29 +1,50 @@
-# Loan Approval Prediction using Machine Learning
+# Loan Approval Prediction 🏦
 
-## Problem Statement
-Predict whether a loan application will be approved based on applicant details.
+## 📌 Project Overview
+This project predicts whether a loan application will be approved based on applicant details using Machine Learning.
 
-## Dataset
-Loan application dataset containing demographic, financial, and credit history features.
+## ❓ Problem Statement
+Banks receive thousands of loan applications daily. Manually evaluating them is time-consuming and error-prone.  
+This project automates loan approval prediction using historical data.
 
-## Approach
-- Data Cleaning (missing value handling)
-- Feature Encoding
+## 📊 Dataset
+The dataset contains applicant information such as:
+- Gender
+- Marital Status
+- Education
+- Income
+- Loan Amount
+- Credit History
+- Property Area
+
+## ⚙️ Approach
+- Data Cleaning & Missing Value Handling
 - Exploratory Data Analysis (EDA)
-- Model Training & Comparison
+- Feature Encoding (Label Encoding)
+- Feature Scaling
+- Train-Test Split
+- Model Training
 - Model Evaluation
 
-## Models Used
+## 🧠 Model Used
 - Logistic Regression
-- Decision Tree
-- Random Forest
 
-## Results
-- Logistic Regression achieved the highest accuracy of **78.86%**
-- Credit history was the most influential feature
+## 📈 Results
+- Achieved approximately **79% accuracy** on test data
+- Credit History was the most influential feature
 
-## Conclusion
-Logistic Regression was selected due to its superior performance and interpretability in financial decision-making.
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+## 🚀 How to Run
+1. Clone the repository  
+2. Install required libraries  
+3. Run the Jupyter Notebook  
+
+## 👤 Author
+**Mahadev M**
